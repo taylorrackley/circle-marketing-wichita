@@ -1,0 +1,17 @@
+/* 4 different background colors
+#959694
+#c0c0c0
+#666666
+#808080
+
+ */
+.c0{background: #81AF7C; z-index:-1;}
+.c1{background: #B5DAA3; z-index:-1;}
+.c2{background: #96C58C; z-index:-1;}
+.c3{background: #CFE2C2; z-index:-1;}
+/* 5 different sizes */
+.g0{height:46px;width:46px;border-radius:23px;}
+.g1{height:16px;width:16px;border-radius:8px;}
+.g2{height:22px;width:22px;border-radius:11px;}
+.g3{height:28px;width:28px;border-radius:14px;}
+.g4{height:38px;width:38px;border-radius:19px;}

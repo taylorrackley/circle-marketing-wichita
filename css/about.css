@@ -1,0 +1,42 @@
+.section-heading {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.bio-text {
+    display: none;
+    width: 400px;
+    height: calc(100% - 25px);
+    /*height: 500px;*/
+    color: black;
+    background: rgba(150, 197, 140, .9);
+    position: absolute;
+    padding: 5%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.bio-text hr {
+    border-top: 1px solid black;
+}
+
+.bio-text .lead {
+    text-align: center;
+}
+
+/*#bios div:hover {
+    cursor: pointer;
+}*/
+
+#bios div div {
+    margin-bottom: 25px;
+}
+
+.bio-container {
+    width: 350px;
+    /*height: 500px;*/
+    margin: 0 auto;
+}

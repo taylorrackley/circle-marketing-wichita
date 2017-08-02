@@ -1,0 +1,51 @@
+.section-heading {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.bio-text {
+    display: none;
+    max-width: calc(100% - 30px);
+    padding: 10px;
+    height: 100%;
+    color: black;
+    background: rgba(150, 197, 140, .9);
+    position: absolute;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.bio-text hr {
+    border-top: 1px solid black;
+}
+
+.bio-text h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.bio-text .lead {
+    text-align: center;
+}
+
+#bios div div {
+    margin-bottom: 50px;
+}
+
+.bio-container {
+    width: 100%;
+    /*height: 500px;*/
+    margin: 0 auto;
+}
+
+.bio-container img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

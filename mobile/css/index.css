@@ -1,0 +1,41 @@
+#fp-social-media {
+    position: relative;
+    padding: 0px;
+}
+
+#fp-social-media li {
+    width: 20vw;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0 auto;
+}
+
+.text-muted {
+    font-size: 18px;
+    color: black;
+}
+
+#front-page div {
+    margin-bottom: 0px;
+}
+
+.intro-text {
+    padding-top: 0px !important;
+}
+
+#logo {
+    margin-top: 15vh;
+}
+
+#main-content {
+    position: absolute;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 100%;
+    background: linear-gradient(#fff 0%, #B5DAA3 50%, #fff 90%);
+}
+
+footer {
+    margin-top: 50px;
+}

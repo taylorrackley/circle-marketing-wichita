@@ -1,0 +1,96 @@
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  background: url(../img/1.png);
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 16px;
+  line-height: 1.33;
+  border-radius: 60px;
+}
+
+.social-media-links {
+    width: 50px;
+    margin: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 40px;
+    height: 65px;
+}
+
+.navbar {
+    border-bottom-left-radius:35% !important;
+    border-bottom-right-radius:35% !important;
+}
+
+#skyline-links {
+    z-index: 1;
+}
+
+#fp-social-media {
+    position: relative;
+    z-index: 1;
+}
+
+#skyline-links {
+    position: absolute;
+    width: 100%;
+    bottom: 9px;
+}
+
+#skyline-links ul {
+    left: 50%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#skyline-links ul li {
+    margin-right: 25px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+#skyline-links ul li a {
+    font-family: "century gothic","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #777;
+    text-decoration: none;
+}
+
+#skyline-links ul li a:hover {
+    color: #333;
+}
+
+#skyline {
+    position: absolute;
+    width: 100%;
+    height: 25vh;
+    bottom: 6vh;
+    left: 0px;
+}

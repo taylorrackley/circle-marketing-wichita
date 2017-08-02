@@ -1,0 +1,79 @@
+a {
+    color: black;
+}
+
+.portfolio-hover-content:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.popup:hover {
+    background: #b5daa3;
+    color: black;
+    border-color: black;
+}
+
+.popup {
+    background: #81AF7C;
+    color: black;
+}
+
+.popup-small {
+    color: #81AF7C;
+}
+
+.portfolio-modal {
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    padding: 0px !important;
+}
+
+.portfolio-modal .modal-dialog {
+    height: 100% !important;
+}
+
+.modal-content {
+    height: 100% !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+.modal-body {
+    margin-top: 10vh;
+}
+
+.modal-content .container {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.portfolio-hover-content .section-heading {
+    padding-top: 0px;
+}
+
+.bio-text {
+    z-index: 1;
+    display: inline;
+    background: none;
+}
+
+.bio-container img {
+    z-index: 0;
+    opacity: 0.8;
+}
+
+.section-heading {
+    text-transform: none;
+    margin-bottom: 0px;
+}
+
+.specfic-services {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.portfolio-link:active, .portfolio-link:focus, .portfolio-link:visited {
+    color: black;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Circle Marketing is a creative marketing agency ready to optimize your business's online reach. Let us grow your business!">
+    <meta name="keywords" content="Marketing, Services, Business, Circle Marketing, Creative" />
+    <meta name="author" content="Circle Marketing Wichita">
+
+    <title>Circle Marketing Wichita</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/circle_media.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/bubbles.css" />
+    <style type="text/css">
+    .parti{position:absolute;top:300px;left:50%;}
+    </style>
+    <script src="js/jquery.js"></script>
+    <script src="js/bubbles.js"></script>
+    <script src="js/redirect.js"></script>
+    <script type="text/javascript">
+
+    SA.redirection_mobile ({
+    		mobile_url : "circlemarketingwichita.com/mobile/index.html",
+    		mobile_prefix : "http"
+    });
+
+    var hel = Array('h','e','l','v','e','t','c','a');
+
+    $(document).ready(function (e) {
+        //Add random divs as sample....
+        //Change numberOfDivs if you want
+        var numberOfDivs = 100;
+
+        // add x number of divs to page.
+        for (var i = 0; i < numberOfDivs; i++) {
+            var g = Math.floor(Math.random() * 5);
+            var c = Math.floor(Math.random() * 4);
+            //Create div with class c0/c3 (color) and g0/g4 (size)
+            var p = $('<div/>').addClass('c' + c).addClass('g' + g).addClass('parti');
+            //Add object to body
+            $('body').append(p);
+        }
+
+        //This is where the magic happends!!!
+        //Add css set to none because I added display:block;position:absolute; to the css.
+        $('.parti').movingBubble({ addCss: false });
+    });
+    </script>
+
+</head>
+
+<body style="overflow-x: hidden">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="position: fixed; z-index: 2;" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <p class="navbar-brand topnav" >Phone: (316) 768-7788</p>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="contact.html"><button class="btn btn-default" style="font-size:16px;">Grow Your Business!</button></a>
+                </li>
+            </ul>
+            <!-- Collect the nav links, forms, and other content for toggling
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://circlemarketingwichita.com">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://circlemarketingwichita.com/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="http://circlemarketingwichita.com/services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="http://circlemarketingwichita.com/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            -->
+        </div>
+    </nav>
+
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <img id="logo-img" src="img/logo.png"/>
+                        <hr class="intro-divider">
+                        <div id="scroller-anchor"></div>
+                        <ul class="list-inline intro-social-buttons" id="fp-social-media" style="position: relative; z-index:2;">
+                            <li>
+                                <a href="https://twitter.com/CircleWichita">
+                                    <img src="img/1.png" class="img-circle img-responsive social-media-links">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/CircleWichita">
+                                    <img src="img/2.png" class="img-circle img-responsive social-media-links">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/b/107353330163339240229/107353330163339240229">
+                                    <img src="img/3.png" class="img-circle img-responsive social-media-links">
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="social-media-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <img id="skyline" src="img/intro-bg.png"/>
+    <div id="nav-anchor"></div>
+    <div id="skyline-links">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="full-gradient">
+
+        <div class="content-section-a" id="section-a-top">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6 hideme" style="padding-top:100px;">
+                        <div class="clearfix"></div>
+                        <h1 class="section-heading">Creative</h1>
+                        <hr style="border: black solid 1px;">
+                        <p class="lead">We believe you are uniquely creative, and we can assist in thinking beyond normal limits. Our team is ready to turn your dreams into a reality!</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6 hideme">
+                        <img class="img-responsive" src="img/side_1.png" style="height: 400px;" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-a -->
+        <div id="gradient-top"></div>
+        <div class="content-section-b">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6 hideme">
+                        <div class="clearfix"></div>
+                        <h1 class="section-heading">Efficient</h1>
+                        <hr style="border: black solid 1px;">
+                        <p class="lead">We want every type of business to be able to afford growth and will work within your budget to meet your goals. Set up a meeting with us today!</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6 hideme">
+                        <img class="img-responsive" src="img/side_2.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+
+        <div id="gradient-bottom"></div>
+        <!-- /.content-section-b -->
+        <div class="content-section-a" id="section-a-bottom">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6 hideme" style="padding-top:75px;">
+                        <div class="clearfix"></div>
+                        <h1 class="section-heading">Marketing</h1>
+                        <hr style="border: black solid 1px;">
+                        <p class="lead">Our goal is to allow your business reach the largest audience it possibly can through its online presence. Let's increase your consumer reach together!</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6 hideme">
+                        <img class="img-responsive" style="height: 350px;" src="img/side_3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="text-align: center;">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="services.html">Services</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <p class="copyright text-muted small">Copyright &copy; Circle Marketing 2017. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fade-items.js"></script>
+    <script src="js/nav.js"></script>
+
+</body>
+
+</html>
